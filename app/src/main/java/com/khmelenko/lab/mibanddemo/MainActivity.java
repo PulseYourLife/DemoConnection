@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         ButterKnife.bind(this);
 
         mMiBand = new MiBand(this);
-        checkLocationPermission();
+        //checkLocationPermission();
     }
 
     @OnClick(R.id.action_connect)
